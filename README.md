@@ -1,2 +1,4 @@
 # mu-mSCD
 The following MATLAB code introduces mu-mSCD, our proposed algorithm for solving large scale linear systems with missing/ corrupt data which modifies Stochastic Coordinate Descent (SCD) such that that the new algorithm converges to an optimal solution given a linear system with i.i.d. Bernoulli missing column entries of a data matrix with mean mu.
+
+Alongside the algorithm file are two test script files. One testing the algorithm's performance with varying column means using synthetic data in which the matrix A is generated given a fixed mu. The other tests the algorithm on real world data obtained from the UCI Machine Learning Repository, in which each column corresponds to a garmet factory's productivity level. We emply a subset of all possible features to to train a linear model to predit worker productivity. 
